@@ -10,7 +10,7 @@ services:
     # path untuk source di dalam docker
     volumes:
       - ./:/var/www
-    image: nginx:latest
+    image: webserver_laravel:1.0
     ports:
       - "8070:80"
 
@@ -19,7 +19,7 @@ services:
     build:
       context: ./
       dockerfile: app.dockerfile
-    image: app_laravel_docker
+    image: app_laravel:1.0
     volumes:
       - ./:/var/www
 
