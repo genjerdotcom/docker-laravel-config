@@ -16,7 +16,7 @@ LARAVEL
 
 ```
 
-## Will automaticly create a image for app (source code image) & web (webserver config image)
+## automatic create a image for app (source code image) & web (webserver config image)
 
 ```
  $ docker-compose up -d 
